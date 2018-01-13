@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{252B5E0C-D3EB-45FB-BD64-BF16C0C058B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>New</RootNamespace>
+    <AssemblyName>New</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Animated Button C Sharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Animated Button C Sharp.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_User_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_User_B.Designer.cs">
+      <DependentUpon>Add_User_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Button Blue.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button Blue.Designer.cs">
+      <DependentUpon>Button Blue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Button Yellow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button Yellow.Designer.cs">
+      <DependentUpon>Button Yellow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_password_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_password_B.Designer.cs">
+      <DependentUpon>Change_password_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course_B.cs" />
+    <Compile Include="Delete_a_Student_From_Course_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_a_Student_From_Course_Secretary_B.Designer.cs">
+      <DependentUpon>Delete_a_Student_From_Course_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_User_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_User_B.Designer.cs">
+      <DependentUpon>Delete_User_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword_B.Designer.cs">
+      <DependentUpon>ForgetPassword_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lecture.cs" />
+    <Compile Include="Login_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_B.Designer.cs">
+      <DependentUpon>Login_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorDisplaysDetails_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorDisplaysDetails_B.Designer.cs">
+      <DependentUpon>ProfessorDisplaysDetails_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="professor_Evaluation_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="professor_Evaluation_B.Designer.cs">
+      <DependentUpon>professor_Evaluation_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="professor_percentage_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="professor_percentage_B.Designer.cs">
+      <DependentUpon>professor_percentage_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proffesor_Menu_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proffesor_Menu_B.Designer.cs">
+      <DependentUpon>Proffesor_Menu_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secretary_Menu_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Menu_B.Designer.cs">
+      <DependentUpon>Secretary_Menu_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="secretery_GetStudentOfCourse_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="secretery_GetStudentOfCourse_B.Designer.cs">
+      <DependentUpon>secretery_GetStudentOfCourse_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="StudentClass_B.cs" />
+    <Compile Include="StudentDisplayDetails_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentDisplayDetails_B.Designer.cs">
+      <DependentUpon>StudentDisplayDetails_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentScheduleView_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentScheduleView_B.Designer.cs">
+      <DependentUpon>StudentScheduleView_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSchedule_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentSchedule_B.Designer.cs">
+      <DependentUpon>StudentSchedule_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Menu_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Menu_B.Designer.cs">
+      <DependentUpon>Student_Menu_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Course_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Course_Secretary_B.Designer.cs">
+      <DependentUpon>Student_Placement_to_Course_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lab_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lab_Secretary_B.Designer.cs">
+      <DependentUpon>Student_Placement_to_Lab_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lec_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lec_Secretary_B.Designer.cs">
+      <DependentUpon>Student_Placement_to_Lec_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Practice_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Practice_Secretary_B.Designer.cs">
+      <DependentUpon>Student_Placement_to_Practice_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Self_Placement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Self_Placement.Designer.cs">
+      <DependentUpon>Student_Self_Placement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="support  manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="support  manager.Designer.cs">
+      <DependentUpon>support  manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="theme_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="theme_B.Designer.cs">
+      <DependentUpon>theme_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Ditetails_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Ditetails_B.Designer.cs">
+      <DependentUpon>User_Ditetails_B.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_User_B.resx">
+      <DependentUpon>Add_User_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_password_B.resx">
+      <DependentUpon>Change_password_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_a_Student_From_Course_Secretary_B.resx">
+      <DependentUpon>Delete_a_Student_From_Course_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_User_B.resx">
+      <DependentUpon>Delete_User_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPassword_B.resx">
+      <DependentUpon>ForgetPassword_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_B.resx">
+      <DependentUpon>Login_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorDisplaysDetails_B.resx">
+      <DependentUpon>ProfessorDisplaysDetails_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professor_Evaluation_B.resx">
+      <DependentUpon>professor_Evaluation_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professor_percentage_B.resx">
+      <DependentUpon>professor_percentage_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proffesor_Menu_B.resx">
+      <DependentUpon>Proffesor_Menu_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Secretary_Menu_B.resx">
+      <DependentUpon>Secretary_Menu_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secretery_GetStudentOfCourse_B.resx">
+      <DependentUpon>secretery_GetStudentOfCourse_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDisplayDetails_B.resx">
+      <DependentUpon>StudentDisplayDetails_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentScheduleView_B.resx">
+      <DependentUpon>StudentScheduleView_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentSchedule_B.resx">
+      <DependentUpon>StudentSchedule_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Menu_B.resx">
+      <DependentUpon>Student_Menu_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Course_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Course_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Lab_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Lab_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Lec_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Lec_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Practice_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Practice_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Self_Placement.resx">
+      <DependentUpon>Student_Self_Placement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="support  manager.resx">
+      <DependentUpon>support  manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="theme_B.resx">
+      <DependentUpon>theme_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Ditetails_B.resx">
+      <DependentUpon>User_Ditetails_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ButtonMouseDownYellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ButtonMouseOverYellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ButtonMouseOverBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ButtonMouseDownBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

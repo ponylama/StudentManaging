@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="New.Add_User_B" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAIAACAIARQgAACAAAACUCAYAEAQAABEAABAADA=</HashCode>
+      <FileName>Add_User_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Button_Blue" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIIIACAEAAAAAADACAACAAABAEAAIAAAAAACgAE=</HashCode>
+      <FileName>Button Blue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Button_Yellow" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIIIACAEAAAAAADACAACAAABAEAAIAAAAAACgAE=</HashCode>
+      <FileName>Button Yellow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Change_password_B" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAARQgAACAAAACEAAYAEAAAAAAAABAACA=</HashCode>
+      <FileName>Change_password_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Course" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECQAAUABiAYLgIAJABAEAAEQIBACIQCKYiCgUAgAAA=</HashCode>
+      <FileName>Course_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Delete_User_B" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAARAgAACAAAACEAAYAAAgAAAAAAAAACA=</HashCode>
+      <FileName>Delete_User_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Form1" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAQDAAAAAAQACAAABCQsA4AAAACAQQAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Lecture" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAMAEAAAAAAgCCAAAAEAAIAAAAAIAAAAAAAAEAAAAg=</HashCode>
+      <FileName>Lecture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Login_B">
+    <Position X="9" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhQABCAAATAgAACABAAGUABCAAAAAABCQABAAAA=</HashCode>
+      <FileName>Login_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Program" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Secretary_Menu_B" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgACAAIAAAAACAAAAGQIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Secretary_Menu_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Student_Menu_B" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAACAggAARAACAQAQCQAAIAAAAAAAAAIIQCAA=</HashCode>
+      <FileName>Student_Menu_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.StudentClass" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAUAABAAAgCCAoAAEAAAAEQAAAAAQAQBAAFQAAAg=</HashCode>
+      <FileName>StudentClass_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.StudentDisplayDetails_B" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAggAAAAACAAABCAAAAAAAAAAAAAAAICAA=</HashCode>
+      <FileName>StudentDisplayDetails_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.StudentSchedule_B" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAgABAgAACAAAACAAAgAAAgAAAAAAAACAA=</HashCode>
+      <FileName>StudentSchedule_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.support__manager" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAADAAAAAgAACAAAACQAAgAABAIEAAAAAAAAA=</HashCode>
+      <FileName>support  manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.theme_B" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAACAAAAAAAACAAAACABgAAAAACgAAAABAAAA=</HashCode>
+      <FileName>theme_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.User_Ditetails_B" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAYQACAIABQgAACAEAACUBAAAEAAAABAAIAAAAA=</HashCode>
+      <FileName>User_Ditetails_B.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgBkAABAQAAAAAAAAAAAAAAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

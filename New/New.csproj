@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE355238-124B-45F8-9BCE-D7DD1C03E9A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>New</RootNamespace>
+    <AssemblyName>New</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Facebook.7.0.6\lib\net45\Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_MenuSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_MenuSecretary.designer.cs">
+      <DependentUpon>add_MenuSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_User_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_User_B.designer.cs">
+      <DependentUpon>Add_User_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ALoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALoginScreen.designer.cs">
+      <DependentUpon>ALoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analyze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analyze.designer.cs">
+      <DependentUpon>Analyze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aqueries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aqueries.designer.cs">
+      <DependentUpon>Aqueries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_addCourse_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_addCourse_secretary.designer.cs">
+      <DependentUpon>A_addCourse_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_addDepartment_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_addDepartment_secretary.designer.cs">
+      <DependentUpon>A_addDepartment_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_addingFlowchart_DepartmentHead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_addingFlowchart_DepartmentHead.designer.cs">
+      <DependentUpon>A_addingFlowchart_DepartmentHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_addLecturer_DH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_addLecturer_DH.designer.cs">
+      <DependentUpon>A_addLecturer_DH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_addTA_DH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_addTA_DH.designer.cs">
+      <DependentUpon>A_addTA_DH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_add_DH_forSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_add_DH_forSecretary.designer.cs">
+      <DependentUpon>A_add_DH_forSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_allocateNumSeatsToCourse_DH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_allocateNumSeatsToCourse_DH.designer.cs">
+      <DependentUpon>A_allocateNumSeatsToCourse_DH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_AverageGradesInCoursses_HD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_AverageGradesInCoursses_HD.designer.cs">
+      <DependentUpon>A_AverageGradesInCoursses_HD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_creditsForCourse_DH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_creditsForCourse_DH.designer.cs">
+      <DependentUpon>A_creditsForCourse_DH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DepartmentHead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DepartmentHead.designer.cs">
+      <DependentUpon>A_DepartmentHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DHadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DHadd.designer.cs">
+      <DependentUpon>A_DHadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DHedit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DHedit.designer.cs">
+      <DependentUpon>A_DHedit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DHremove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DHremove.designer.cs">
+      <DependentUpon>A_DHremove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DHschedualing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DHschedualing.designer.cs">
+      <DependentUpon>A_DHschedualing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DHview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DHview.designer.cs">
+      <DependentUpon>A_DHview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_displayMenuSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_displayMenuSecretary.designer.cs">
+      <DependentUpon>A_displayMenuSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_editingFlowchart_DepartmentHead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_editingFlowchart_DepartmentHead.designer.cs">
+      <DependentUpon>A_editingFlowchart_DepartmentHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_edit_classes_for_exames_period_secretsry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_edit_classes_for_exames_period_secretsry.designer.cs">
+      <DependentUpon>A_edit_classes_for_exames_period_secretsry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_FilterClassSeatsSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_FilterClassSeatsSecretary.designer.cs">
+      <DependentUpon>A_FilterClassSeatsSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_FilterStudentsPreCourseSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_FilterStudentsPreCourseSecretary.designer.cs">
+      <DependentUpon>A_FilterStudentsPreCourseSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_HD_ExamList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_HD_ExamList.designer.cs">
+      <DependentUpon>A_HD_ExamList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_insertForSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_insertForSecretary.designer.cs">
+      <DependentUpon>A_insertForSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_insertionGrades_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_insertionGrades_secretary.designer.cs">
+      <DependentUpon>A_insertionGrades_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_Insert_work_hours_for_Lec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_Insert_work_hours_for_Lec.designer.cs">
+      <DependentUpon>A_Insert_work_hours_for_Lec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_Insert_work_hours_for_TA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_Insert_work_hours_for_TA.designer.cs">
+      <DependentUpon>A_Insert_work_hours_for_TA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_LecturerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_LecturerMenu.designer.cs">
+      <DependentUpon>A_LecturerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_menuForSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_menuForSecretary.designer.cs">
+      <DependentUpon>A_menuForSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_queryCourseSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_queryCourseSecretary.designer.cs">
+      <DependentUpon>A_queryCourseSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_QueryLecturer_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_QueryLecturer_secretary.Designer.cs">
+      <DependentUpon>A_QueryLecturer_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_queryStudentSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_queryStudentSecretary.designer.cs">
+      <DependentUpon>A_queryStudentSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_queryTeachingAssistantSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_queryTeachingAssistantSecretary.designer.cs">
+      <DependentUpon>A_queryTeachingAssistantSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_removeCourse_forSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_removeCourse_forSecretary.designer.cs">
+      <DependentUpon>A_removeCourse_forSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_removeDept_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_removeDept_secretary.designer.cs">
+      <DependentUpon>A_removeDept_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_removeDH_forSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_removeDH_forSecretary.designer.cs">
+      <DependentUpon>A_removeDH_forSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_removeForSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_removeForSecretary.designer.cs">
+      <DependentUpon>A_removeForSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_removeSchedLecturer_fromDept_forSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_removeSchedLecturer_fromDept_forSecretary.designer.cs">
+      <DependentUpon>A_removeSchedLecturer_fromDept_forSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_removeSchedTA_fromDepat_forSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_removeSchedTA_fromDepat_forSecretary.designer.cs">
+      <DependentUpon>A_removeSchedTA_fromDepat_forSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_remove_Lecturer_DH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_remove_Lecturer_DH.designer.cs">
+      <DependentUpon>A_remove_Lecturer_DH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_remove_TA_DH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_remove_TA_DH.designer.cs">
+      <DependentUpon>A_remove_TA_DH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_ScaduilngClassForExam_Secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_ScaduilngClassForExam_Secretary.designer.cs">
+      <DependentUpon>A_ScaduilngClassForExam_Secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_schedClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_schedClasses.designer.cs">
+      <DependentUpon>A_schedClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_schedForSecretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_schedForSecretary.designer.cs">
+      <DependentUpon>A_schedForSecretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_schedLectToCourse_forDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_schedLectToCourse_forDH.designer.cs">
+      <DependentUpon>A_schedLectToCourse_forDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_schedTA_toCourse_forDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_schedTA_toCourse_forDH.designer.cs">
+      <DependentUpon>A_schedTA_toCourse_forDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_schedualingTeachingAssistants_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_schedualingTeachingAssistants_secretary.designer.cs">
+      <DependentUpon>A_schedualingTeachingAssistants_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_schedulingLecturers_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_schedulingLecturers_secretary.designer.cs">
+      <DependentUpon>A_schedulingLecturers_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_sched_lecturerDept_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_sched_lecturerDept_secretary.designer.cs">
+      <DependentUpon>A_sched_lecturerDept_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_sched_TA_Dept_secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_sched_TA_Dept_secretary.designer.cs">
+      <DependentUpon>A_sched_TA_Dept_secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_Show_Schedualing_TA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_Show_Schedualing_TA.designer.cs">
+      <DependentUpon>A_Show_Schedualing_TA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_student_report_forDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_student_report_forDH.designer.cs">
+      <DependentUpon>A_student_report_forDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_stutent_report_perYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_stutent_report_perYear.designer.cs">
+      <DependentUpon>A_stutent_report_perYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_TeachingAssistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_TeachingAssistant.designer.cs">
+      <DependentUpon>A_TeachingAssistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_viewReportHoursOf_Lecturer_forDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_viewReportHoursOf_Lecturer_forDH.designer.cs">
+      <DependentUpon>A_viewReportHoursOf_Lecturer_forDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_viewReportHoursOf_TA_forDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_viewReportHoursOf_TA_forDH.designer.cs">
+      <DependentUpon>A_viewReportHoursOf_TA_forDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_view_list_of_classes_Secretary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_view_list_of_classes_Secretary.designer.cs">
+      <DependentUpon>A_view_list_of_classes_Secretary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Button Blue.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button Blue.designer.cs">
+      <DependentUpon>Button Blue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Button Yellow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button Yellow.designer.cs">
+      <DependentUpon>Button Yellow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_password_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_password_B.designer.cs">
+      <DependentUpon>Change_password_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_User_Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_User_Name.Designer.cs">
+      <DependentUpon>Change_User_Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course.cs" />
+    <Compile Include="Delete_a_Student_From_Course_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_a_Student_From_Course_Secretary_B.designer.cs">
+      <DependentUpon>Delete_a_Student_From_Course_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_User_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_User_B.designer.cs">
+      <DependentUpon>Delete_User_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="FacebookLoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacebookLoginDialog.designer.cs">
+      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FB_Analyze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FB_Analyze.designer.cs">
+      <DependentUpon>FB_Analyze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword_B.designer.cs">
+      <DependentUpon>ForgetPassword_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeadDepartment.cs" />
+    <Compile Include="InsertConditionTermsForCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertConditionTermsForCourse.Designer.cs">
+      <DependentUpon>InsertConditionTermsForCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lecture.cs" />
+    <Compile Include="Lecturer.cs" />
+    <Compile Include="Login_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_B.designer.cs">
+      <DependentUpon>Login_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniJson.cs" />
+    <Compile Include="ProfessorClass.cs" />
+    <Compile Include="ProfessorDisplaysDetails_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorDisplaysDetails_B.designer.cs">
+      <DependentUpon>ProfessorDisplaysDetails_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorMassMassege.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorMassMassege.Designer.cs">
+      <DependentUpon>ProfessorMassMassege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="professor_add_Grade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="professor_add_Grade.Designer.cs">
+      <DependentUpon>professor_add_Grade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="professor_Disciplinarity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="professor_Disciplinarity.Designer.cs">
+      <DependentUpon>professor_Disciplinarity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="professor_Evaluation_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="professor_Evaluation_B.designer.cs">
+      <DependentUpon>professor_Evaluation_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="professor_percentage_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="professor_percentage_B.designer.cs">
+      <DependentUpon>professor_percentage_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Professor_Student_List_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Professor_Student_List_B.Designer.cs">
+      <DependentUpon>Professor_Student_List_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings1.Designer.cs" />
+    <Compile Include="Secretary.cs" />
+    <Compile Include="Secretary_Menu_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Menu_B.designer.cs">
+      <DependentUpon>Secretary_Menu_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="secretery_GetStudentOfCourse_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="secretery_GetStudentOfCourse_B.designer.cs">
+      <DependentUpon>secretery_GetStudentOfCourse_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretery_Student_Placement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretery_Student_Placement.designer.cs">
+      <DependentUpon>Secretery_Student_Placement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretry_StudentListOfCourse_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretry_StudentListOfCourse_B.designer.cs">
+      <DependentUpon>Secretry_StudentListOfCourse_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sending_Mass_Message_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sending_Mass_Message_B.Designer.cs">
+      <DependentUpon>sending_Mass_Message_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sending_Personal_message_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sending_Personal_message_B.Designer.cs">
+      <DependentUpon>sending_Personal_message_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="send_mass_Message_secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="send_mass_Message_secretary_B.Designer.cs">
+      <DependentUpon>send_mass_Message_secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Show_Schedualing_lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Schedualing_lecturer.designer.cs">
+      <DependentUpon>Show_Schedualing_lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student.cs" />
+    <Compile Include="StudentClass_B.cs" />
+    <Compile Include="StudentDisplayDetails_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentDisplayDetails_B.designer.cs">
+      <DependentUpon>StudentDisplayDetails_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentScheduleView_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentScheduleView_B.designer.cs">
+      <DependentUpon>StudentScheduleView_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSchedule_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentSchedule_B.designer.cs">
+      <DependentUpon>StudentSchedule_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Menu_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Menu_B.designer.cs">
+      <DependentUpon>Student_Menu_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Course_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Course_Secretary_B.designer.cs">
+      <DependentUpon>Student_Placement_to_Course_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lab_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lab_Secretary_B.designer.cs">
+      <DependentUpon>Student_Placement_to_Lab_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lec_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Lec_Secretary_B.designer.cs">
+      <DependentUpon>Student_Placement_to_Lec_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Placement_to_Practice_Secretary_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Placement_to_Practice_Secretary_B.designer.cs">
+      <DependentUpon>Student_Placement_to_Practice_Secretary_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Self_placement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Self_placement.designer.cs">
+      <DependentUpon>Student_Self_placement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="support  manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="support  manager.designer.cs">
+      <DependentUpon>support  manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingAssitant.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="User_Ditetails_B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Ditetails_B.designer.cs">
+      <DependentUpon>User_Ditetails_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Courses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Courses.Designer.cs">
+      <DependentUpon>View_Courses.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_MenuSecretary.resx">
+      <DependentUpon>add_MenuSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_User_B.resx">
+      <DependentUpon>Add_User_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALoginScreen.resx">
+      <DependentUpon>ALoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analyze.resx">
+      <DependentUpon>Analyze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aqueries.resx">
+      <DependentUpon>Aqueries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_addCourse_secretary.resx">
+      <DependentUpon>A_addCourse_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_addDepartment_secretary.resx">
+      <DependentUpon>A_addDepartment_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_addingFlowchart_DepartmentHead.resx">
+      <DependentUpon>A_addingFlowchart_DepartmentHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_addLecturer_DH.resx">
+      <DependentUpon>A_addLecturer_DH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_addTA_DH.resx">
+      <DependentUpon>A_addTA_DH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_add_DH_forSecretary.resx">
+      <DependentUpon>A_add_DH_forSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_allocateNumSeatsToCourse_DH.resx">
+      <DependentUpon>A_allocateNumSeatsToCourse_DH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_AverageGradesInCoursses_HD.resx">
+      <DependentUpon>A_AverageGradesInCoursses_HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_creditsForCourse_DH.resx">
+      <DependentUpon>A_creditsForCourse_DH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DepartmentHead.resx">
+      <DependentUpon>A_DepartmentHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DHadd.resx">
+      <DependentUpon>A_DHadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DHedit.resx">
+      <DependentUpon>A_DHedit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DHremove.resx">
+      <DependentUpon>A_DHremove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DHschedualing.resx">
+      <DependentUpon>A_DHschedualing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DHview.resx">
+      <DependentUpon>A_DHview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_displayMenuSecretary.resx">
+      <DependentUpon>A_displayMenuSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_editingFlowchart_DepartmentHead.resx">
+      <DependentUpon>A_editingFlowchart_DepartmentHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_edit_classes_for_exames_period_secretsry.resx">
+      <DependentUpon>A_edit_classes_for_exames_period_secretsry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_FilterClassSeatsSecretary.resx">
+      <DependentUpon>A_FilterClassSeatsSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_FilterStudentsPreCourseSecretary.resx">
+      <DependentUpon>A_FilterStudentsPreCourseSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_HD_ExamList.resx">
+      <DependentUpon>A_HD_ExamList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_insertForSecretary.resx">
+      <DependentUpon>A_insertForSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_insertionGrades_secretary.resx">
+      <DependentUpon>A_insertionGrades_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_Insert_work_hours_for_Lec.resx">
+      <DependentUpon>A_Insert_work_hours_for_Lec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_Insert_work_hours_for_TA.resx">
+      <DependentUpon>A_Insert_work_hours_for_TA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_LecturerMenu.resx">
+      <DependentUpon>A_LecturerMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_menuForSecretary.resx">
+      <DependentUpon>A_menuForSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_queryCourseSecretary.resx">
+      <DependentUpon>A_queryCourseSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_QueryLecturer_secretary.resx">
+      <DependentUpon>A_QueryLecturer_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_queryStudentSecretary.resx">
+      <DependentUpon>A_queryStudentSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_queryTeachingAssistantSecretary.resx">
+      <DependentUpon>A_queryTeachingAssistantSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_removeCourse_forSecretary.resx">
+      <DependentUpon>A_removeCourse_forSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_removeDept_secretary.resx">
+      <DependentUpon>A_removeDept_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_removeDH_forSecretary.resx">
+      <DependentUpon>A_removeDH_forSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_removeForSecretary.resx">
+      <DependentUpon>A_removeForSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_removeSchedLecturer_fromDept_forSecretary.resx">
+      <DependentUpon>A_removeSchedLecturer_fromDept_forSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_removeSchedTA_fromDepat_forSecretary.resx">
+      <DependentUpon>A_removeSchedTA_fromDepat_forSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_remove_Lecturer_DH.resx">
+      <DependentUpon>A_remove_Lecturer_DH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_remove_TA_DH.resx">
+      <DependentUpon>A_remove_TA_DH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_ScaduilngClassForExam_Secretary.resx">
+      <DependentUpon>A_ScaduilngClassForExam_Secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_schedClasses.resx">
+      <DependentUpon>A_schedClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_schedForSecretary.resx">
+      <DependentUpon>A_schedForSecretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_schedLectToCourse_forDH.resx">
+      <DependentUpon>A_schedLectToCourse_forDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_schedTA_toCourse_forDH.resx">
+      <DependentUpon>A_schedTA_toCourse_forDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_schedualingTeachingAssistants_secretary.resx">
+      <DependentUpon>A_schedualingTeachingAssistants_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_schedulingLecturers_secretary.resx">
+      <DependentUpon>A_schedulingLecturers_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_sched_lecturerDept_secretary.resx">
+      <DependentUpon>A_sched_lecturerDept_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_sched_TA_Dept_secretary.resx">
+      <DependentUpon>A_sched_TA_Dept_secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_Show_Schedualing_TA.resx">
+      <DependentUpon>A_Show_Schedualing_TA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_student_report_forDH.resx">
+      <DependentUpon>A_student_report_forDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_stutent_report_perYear.resx">
+      <DependentUpon>A_stutent_report_perYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_TeachingAssistant.resx">
+      <DependentUpon>A_TeachingAssistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_viewReportHoursOf_Lecturer_forDH.resx">
+      <DependentUpon>A_viewReportHoursOf_Lecturer_forDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_viewReportHoursOf_TA_forDH.resx">
+      <DependentUpon>A_viewReportHoursOf_TA_forDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_view_list_of_classes_Secretary.resx">
+      <DependentUpon>A_view_list_of_classes_Secretary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_password_B.resx">
+      <DependentUpon>Change_password_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_User_Name.resx">
+      <DependentUpon>Change_User_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_a_Student_From_Course_Secretary_B.resx">
+      <DependentUpon>Delete_a_Student_From_Course_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_User_B.resx">
+      <DependentUpon>Delete_User_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacebookLoginDialog.resx">
+      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FB_Analyze.resx">
+      <DependentUpon>FB_Analyze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPassword_B.resx">
+      <DependentUpon>ForgetPassword_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertConditionTermsForCourse.resx">
+      <DependentUpon>InsertConditionTermsForCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_B.resx">
+      <DependentUpon>Login_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorDisplaysDetails_B.resx">
+      <DependentUpon>ProfessorDisplaysDetails_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorMassMassege.resx">
+      <DependentUpon>ProfessorMassMassege.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professor_add_Grade.resx">
+      <DependentUpon>professor_add_Grade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professor_Disciplinarity.resx">
+      <DependentUpon>professor_Disciplinarity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professor_Evaluation_B.resx">
+      <DependentUpon>professor_Evaluation_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professor_percentage_B.resx">
+      <DependentUpon>professor_percentage_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Professor_Student_List_B.resx">
+      <DependentUpon>Professor_Student_List_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Secretary_Menu_B.resx">
+      <DependentUpon>Secretary_Menu_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secretery_GetStudentOfCourse_B.resx">
+      <DependentUpon>secretery_GetStudentOfCourse_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretery_Student_Placement.resx">
+      <DependentUpon>Secretery_Student_Placement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretry_StudentListOfCourse_B.resx">
+      <DependentUpon>Secretry_StudentListOfCourse_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sending_Mass_Message_B.resx">
+      <DependentUpon>sending_Mass_Message_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sending_Personal_message_B.resx">
+      <DependentUpon>sending_Personal_message_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="send_mass_Message_secretary_B.resx">
+      <DependentUpon>send_mass_Message_secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Schedualing_lecturer.resx">
+      <DependentUpon>Show_Schedualing_lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDisplayDetails_B.resx">
+      <DependentUpon>StudentDisplayDetails_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentLoginForm.resx">
+      <DependentUpon>StudentLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentScheduleView_B.resx">
+      <DependentUpon>StudentScheduleView_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentSchedule_B.resx">
+      <DependentUpon>StudentSchedule_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Menu_B.resx">
+      <DependentUpon>Student_Menu_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Course_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Course_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Course_Secretary_B.yo.resx">
+      <DependentUpon>Student_Placement_to_Course_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Lab_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Lab_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Lec_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Lec_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Placement_to_Practice_Secretary_B.resx">
+      <DependentUpon>Student_Placement_to_Practice_Secretary_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Self_placement.resx">
+      <DependentUpon>Student_Self_placement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="support  manager.resx">
+      <DependentUpon>support  manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Ditetails_B.resx">
+      <DependentUpon>User_Ditetails_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Courses.resx">
+      <DependentUpon>View_Courses.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ButtonMouseDownBlue.png" />
+    <Content Include="ButtonMouseDownYellow.png" />
+    <Content Include="ButtonMouseOverBlue.png" />
+    <Content Include="ButtonMouseOverYellow.png" />
+    <Content Include="FB_Analyze.csproj" />
+    <Content Include="Resources\ButtonMouseDownBlue.png" />
+    <Content Include="Resources\ButtonMouseDownYellow.png" />
+    <Content Include="Resources\ButtonMouseOverBlue.png" />
+    <Content Include="Resources\ButtonMouseOverYellow.png" />
+    <Content Include="project17.csproj" />
+    <None Include="Resources\OS-X-Wallpaper.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

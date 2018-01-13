@@ -1,0 +1,15 @@
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\obj\Debug\UnitTestProject1.vbprojResolveAssemblyReference.cache
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\obj\Debug\UnitTestProject1.Resources.resources
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\obj\Debug\UnitTestProject1.vbproj.GenerateResource.Cache
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\UnitTestProject1.xml
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\New.exe
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\Facebook.dll
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\New.pdb
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\bin\Debug\Facebook.xml
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\obj\Debug\UnitTestProject1.xml
+C:\Users\Roy Greenberg\Source\Repos\2017_BS_project17\New\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
